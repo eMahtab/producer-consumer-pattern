@@ -61,3 +61,33 @@ class Consumer implements Runnable {
 }
 
 ```
+
+## Output :
+```
+Thread-1 consumed 1638106577977
+Thread-2 consumed 1638106579156
+Thread-1 consumed 1638106580157
+Thread-2 consumed 1638106581158
+Thread-1 consumed 1638106582158
+Thread-2 consumed 1638106583159
+Thread-1 consumed 1638106584159
+Thread-2 consumed 1638106585161
+Thread-1 consumed 1638106586162
+Thread-2 consumed 1638106587162
+Thread-1 consumed 1638106588162
+Thread-2 consumed 1638106589162
+Thread-1 consumed 1638106590163
+Thread-2 consumed 1638106591163
+Thread-1 consumed 1638106592165
+Thread-2 consumed 1638106593167
+Thread-1 consumed 1638106594167
+Thread-2 consumed 1638106595167
+Thread-1 consumed 1638106596168
+Thread-2 consumed 1638106597168
+```
+
+# References :
+http://tutorials.jenkov.com/java-concurrency/producer-consumer.html
+
+https://www.youtube.com/watch?v=tEwNXnAmc9c&list=PLL8woMHwr36EDxjUoCzboZjedsnhLP1j4&index=19
+
