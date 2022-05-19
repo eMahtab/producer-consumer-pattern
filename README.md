@@ -86,6 +86,16 @@ Thread-1 consumed 1638106596168
 Thread-2 consumed 1638106597168
 ```
 
+## BlockingQueue
+void put(E e) throws InterruptedException
+
+Inserts the specified element into this queue, waiting if necessary for space to become available.
+
+E take() throws InterruptedException
+
+Retrieves and removes the head of this queue, waiting if necessary until an element becomes available.
+
+
 # References :
 http://tutorials.jenkov.com/java-concurrency/producer-consumer.html
 
